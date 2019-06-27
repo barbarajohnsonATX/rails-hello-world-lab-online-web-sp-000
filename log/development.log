@@ -16,3 +16,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 25ms (Views: 16.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello_world" for 72.182.10.227 at 2019-06-27 04:37:03 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 327ms (Views: 326.7ms | ActiveRecord: 0.0ms)
+
+
